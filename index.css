@@ -1,11 +1,12 @@
 .navbar {
   background-color: #000;
   overflow: hidden;
-  width: 1440px;
+  width: 1560px;
   height: 48px;
   position: fixed;
   top: 0;
   z-index: 1000;
+  
 }
 
 .navbar a {
@@ -26,33 +27,11 @@
   
   color: white;
 }
-.navbar {
-  background-color: #000;
-  overflow: hidden;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-}
 
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
-.navbar a.active {
-  
-  color: white;
-}
+
+
 .sum{
     display: flex;
     flex-direction: row;
